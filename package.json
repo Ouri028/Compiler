@@ -1,0 +1,29 @@
+{
+  "name": "compiler",
+  "version": "1.0.0",
+  "description": "This will to the best of its ability compile JavaScript source code to be unreadable",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ouri028/Compiler.git"
+  },
+  "scripts": {
+    "start": "node dist/bundle.min.js",
+    "build": "webpack"
+  },
+  "keywords": [
+    "Node",
+    "Compile",
+    "JavaScript"
+  ],
+  "author": "Sylvester Stephenson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ouri028/Compiler/issues"
+  },
+  "homepage": "https://github.com/Ouri028/Compiler#readme",
+  "devDependencies": {
+    "webpack": "^5.41.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
